@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/splashScreenImageView"
+        android:layout_width="300dp"
+        android:layout_height="260dp"
+        android:layout_marginTop="100dp"
+        android:importantForAccessibility="no"
+        android:src="@drawable/swinging"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/splashScreenTextView"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:fontFamily="@font/roboto"
+        android:text="@string/you_re_all_set_and_ready_to_starting_your_favorite_books"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="19sp"
+        android:textStyle="bold"
+        android:typeface="normal"
+        app:layout_constraintEnd_toEndOf="@id/splashScreenButton"
+        app:layout_constraintStart_toStartOf="@id/splashScreenButton"
+        app:layout_constraintTop_toBottomOf="@+id/splashScreenImageView" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/splashScreenButton"
+        android:layout_width="300dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="150dp"
+        android:backgroundTint="@color/green"
+        android:fontFamily="@font/sf_pro_rounded_heavy"
+        android:text="@string/proceed"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/splashScreenTextView"
+        tools:ignore="TextContrastCheck" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

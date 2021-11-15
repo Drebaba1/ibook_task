@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">iBook</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="on_board_textView">Reading is a conversation. All books talk but a good one listens as well.</string>
+    <string name="get_started">Get Started</string>
+    <string name="sign_in">Sign In</string>
+    <string name="new_to_ibook">New to iBook?</string>
+    <string name="set_up_an_account">Set up an account</string>
+    <string name="email_address">Email Address</string>
+    <string name="email">Email</string>
+    <string name="swan">Swan</string>
+    <string name="password">Password</string>
+    <string name="we_re_glad_to_have_you_back">We\'re glad to have you back</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="there_s_lots_in_store_for_you">There\'s lots in store for you</string>
+    <string name="first_name">First Name</string>
+    <string name="input_first_name">Input first name</string>
+    <string name="last_name">Last Name</string>
+    <string name="input_last_name">Input last name</string>
+    <string name="username">Username</string>
+    <string name="create_username">Create username</string>
+    <string name="input_email_address">Input email address</string>
+    <string name="passwordd">password</string>
+    <string name="have_an_account">Have an account?</string>
+    <string name="you_re_all_set_and_ready_to_starting_your_favorite_books">You\'re all set and ready to starting your favorite books</string>
+    <string name="proceed">Proceed</string>
+</resources>
